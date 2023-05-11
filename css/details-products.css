@@ -625,6 +625,57 @@ footer .footer .copyright .mobile .social__network {
   color: #FFFFFF;
 }
 
+.product__info {
+  display: flex;
+  gap: 120px 125px;
+  flex-wrap: wrap;
+}
+.product__info h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.product__info p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.product__info .feature {
+  max-width: 635px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 32px;
+}
+.product__info .the__box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px 11px;
+}
+.product__info .the__box .menu__add {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.product__info .the__box .menu__add li {
+  display: flex;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  align-items: center;
+}
+.product__info .the__box .menu__add li b {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #D87D4A;
+}
+
 .head {
   width: 100%;
   background: #141414;
