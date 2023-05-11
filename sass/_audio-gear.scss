@@ -1,0 +1,81 @@
+.audio__gear{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  #tablet{
+    display: none;
+  }
+  #mobile{
+    display: none;
+  }
+  .bringing{
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    h2{
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: 1.42857px;
+      text-transform: uppercase;
+      span{
+        color: rgb(216, 125, 74);
+      }
+    }
+    p{
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+  }
+}
+
+
+@media only screen and (max-width:1023px) {
+  .audio__gear{
+    display: flex;
+    justify-content: center;
+    row-gap: 63px;
+    text-align: center;
+    img{
+      display: none;
+    }
+    #tablet{
+      display: block;
+    }
+    .bringing{
+      width: 573px;
+    }
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .audio__gear{
+    display: flex;
+    justify-content: center;
+    row-gap: 40px;
+    text-align: center;
+    img{
+      display: none;
+    }
+    #tablet{
+      display: none;
+    }
+    #mobile{
+      display: block;
+    }
+    .bringing{
+      width: 327px;
+      h2{
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

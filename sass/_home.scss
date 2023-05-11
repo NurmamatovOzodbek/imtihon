@@ -1,0 +1,352 @@
+.head{
+  width: 100%;
+  background: #141414;
+  border-radius: 8px;
+  .new__product{
+    background-image: url(/img/desktop/head-fon.png);
+    background-repeat: no-repeat;
+    background-position: right -100px;
+    padding:128px 0 158px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    .np__about{
+      max-width: 398px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+      span{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+      p{
+        width: 349px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+      }
+    }
+    button{
+      width: 160px;
+      padding: 15px 0;
+      background: #D87D4A;
+      &:hover{
+        background: #FBAF85;
+      }
+      a{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+main{
+  display: flex;
+  flex-direction: column;
+  row-gap: 168px;
+  padding: 40px 0 200px 0;
+  .products__info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    margin-bottom: 32px;
+    .products__about{
+      background: #D87D4A;
+      background-image: url(/img/desktop/circle.png);
+      background-repeat: no-repeat;
+      border-radius: 8px;
+      padding: 96px 0 0 0;
+
+      display: flex;
+      justify-content: center;
+      gap: 64px 138.28px;
+      #tablet{
+        width: 197.21px;
+        height: 237px;
+        display: none;
+      }
+      .about{
+        width: 349px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        margin-top: 37px;
+        .info{
+          display: flex;
+          flex-direction: column;
+          row-gap: 24px;
+          h2{
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 58px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+          }
+          p{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.75;
+          }
+        }
+        button{
+          width: 160px;
+          padding: 15px 0;
+          background: #000;
+          &:hover{
+            background: #4C4C4C;
+
+          }
+          a{
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+    .zx__about{
+      border-radius: 8px;
+      background-image: url(/img/desktop/stol-kalonka.png);
+      background-repeat: no-repeat;
+      padding: 101px 95px;
+      .zx__info{
+        width: 204px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 32px;
+        h3{
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 38px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+        button{
+          padding: 15px 30px;
+          border: 1px solid #000000;
+          background: none;
+          &:hover{
+            background: #000000;
+          }
+          &:hover a{
+            color: #FFFFFF;
+          }
+          a{
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000000;
+          }
+        }
+      }
+    }
+    .earphones{
+      display: flex;
+      justify-content: space-between;
+      .earphones__info{
+        background: #F1F1F1;
+        border-radius: 8px;
+        padding: 101px 200px 101px 95px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        h3{
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 38px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+        button{
+          width: 160px;
+          padding: 15px 0;
+          border: 1px solid #000000;
+          background: #F1F1F1;
+          &:hover{
+            background: #000000;
+          }
+          &:hover a{
+            color: #FFFFFF;
+          }
+          a{
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Tablet media
+
+@media only screen and (max-width:1023px){
+  .head{
+    border-radius: 0;
+    .new__product{
+      background-image: url(/img/tablet/head-fon.png);
+      background-position: center -100px;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  main{
+    padding: 16px 0 96px 0;
+    row-gap: 96px;
+    .products__info{
+      row-gap: 32px;
+      margin-bottom: 0;
+      .products__about{
+        background-image: url(/img/tablet/circle.png);
+        padding: 52px 0 64px 0;
+        flex-direction: column;
+        align-items: center;
+        img{
+          display: none;
+        }
+        #tablet{
+          display: block;
+        }
+        .about{
+          align-items: center;
+          text-align: center;
+          margin: 0px;
+        }
+      }
+      .zx__about{
+        background-image: url(/img/tablet/stolni-kalonka.png);
+        padding: 101px 62px;
+      }
+      .earphones{
+        img{
+          width: 339px;
+          height: 320px;
+        }
+        .earphones__info{
+          padding: 101px 53px 101px 41px;
+        }
+      }
+    }
+  }
+}
+
+// Mobile media
+@media only screen and (max-width:767px){
+  .head{
+    border-radius: 0;
+    .new__product{
+      background-image: url(/img/mobile/head-fon.png);
+      background-position: center -85px;
+      padding:108px 0 112px 0;
+      align-items: center;
+      text-align: center;
+      row-gap: 28px;
+      .np__about{
+        max-width: 328px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        span{
+          margin-bottom: -8px;
+        }
+        h1{
+          font-size: 36px;
+          line-height: 40px;
+          letter-spacing: 1.28571px;
+        }
+        p{
+          width: 328px;
+        }
+      }
+    }
+  }
+  main{
+    padding: 0 0 120px 0;
+    row-gap: 120px;
+    .products__info{
+      row-gap: 24px;
+      .products__about{
+        background-image: url(/img/mobile/circle.png);
+        padding: 55px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px 0;
+        img{
+          display: none;
+        }
+        #tablet{
+          width: 172px;
+          height: 207px;
+          display: block;
+        }
+        .about{
+          width: 250px;
+          align-items: center;
+          text-align: center;
+          margin: 0px;
+          row-gap: 24px;
+          .info{
+            h2{
+              font-size: 36px;
+              line-height: 40px;
+              letter-spacing: 1.28571px;
+            }
+          }
+        }
+      }
+      .zx__about{
+        background-image: url(/img/mobile/stolni-kalonka.png);
+        padding: 101px 24px;
+        .zx__info{
+          align-items: flex-start;
+        }
+      }
+      .earphones{
+        flex-direction: column;
+        row-gap: 24px;
+        img{
+          width: 327px;
+          height: 200px;
+        }
+        .earphones__info{
+          padding: 41px 58px 41px 24px;
+        }
+      }
+    }
+  }
+}

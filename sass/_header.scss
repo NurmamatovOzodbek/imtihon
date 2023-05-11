@@ -1,0 +1,63 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding:32px 0 36px 0;
+  .logo{
+    display: flex;
+    align-items: center;
+    column-gap: 42px;
+    #gamburger{
+      display: none;
+    }
+  }
+  nav{
+    width: 429px;
+    display: flex;
+    justify-content: space-between;
+    li{
+      a{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:hover{
+          color: #D87D4A;
+        }
+      }
+    }
+  }
+}
+
+// tablet media
+@media only screen and (max-width:1023px){
+  header{
+    .logo{
+      #gamburger{
+        display: block;
+      }
+    }
+    nav{
+      display: none;
+    }
+  }
+}
+
+// mobile media
+@media only screen and (max-width:767px){
+  header{
+    padding:32px 0;
+    .logo{
+      column-gap: 76px;
+      #gamburger{
+        display: block;
+      }
+    }
+    nav{
+      display: none;
+    }
+  }
+}
