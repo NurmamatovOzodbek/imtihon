@@ -1,0 +1,150 @@
+.headphones__cart{
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  #goback{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    &:hover{
+      cursor: pointer;
+      color: #D87D4A;
+      mix-blend-mode: none;
+      opacity: 1;
+    }
+  }
+ .products__add{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .headphone{
+    position: relative;
+    background: #F1F1F1;
+    border-radius: 8px;
+    padding: 65px 95px 108.5px 95px;
+    display: flex;
+    justify-content: center;
+    img{
+      width: 349px;
+      position: relative;
+      z-index: 2;
+    }
+    &::before{
+      position: absolute;
+      content: '';
+      width: 262px;
+      height: 56px;
+      background: #000;
+      border-radius: 100%;
+      bottom: 81px;
+      mix-blend-mode: normal;
+      opacity: 0.15;
+      filter: blur(21.7463px);
+    }
+  }
+  .headphone__about{
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 47px;
+    .new__product{
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+      span{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: #D87D4A;
+      }
+      .headphone__info{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        h1{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 44px;
+          letter-spacing: 1.42857px;
+          text-transform: uppercase;
+          color: #000000;
+        }
+        p{
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 25px;
+          color: #000000;
+          mix-blend-mode: normal;
+          opacity: 0.5;
+        }
+        strong{
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          letter-spacing: 1.28571px;
+          text-transform: uppercase;
+          color: #000000;
+
+        }
+      }
+    }
+   .add__card{
+    max-width: 296px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .number{
+      width: 120px;
+      padding: 15px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #F1F1F1;;
+      column-gap: 20px;
+
+
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #000000;
+      span{
+        mix-blend-mode: normal;
+        opacity: 0.25;
+        &:hover{
+          cursor: pointer;
+          color: #D87D4A;
+          mix-blend-mode: none;
+          opacity: 1;
+        }
+      }
+    }
+    button{
+      width: 160px;
+      padding: 15px 0;
+      border:0;
+      background: #D87D4A;
+      &:hover{
+        background: #FBAF85;
+      }
+      a{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+    }
+   }
+  }
+ }
+}
