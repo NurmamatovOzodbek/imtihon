@@ -546,7 +546,6 @@ footer .footer .copyright .mobile .social__network {
   color: #D87D4A;
 }
 .headphones__cart .products__add .headphone__about .new__product .headphone__info {
-  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
@@ -625,6 +624,67 @@ footer .footer .copyright .mobile .social__network {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 1023px) {
+  .headphones__cart {
+    row-gap: 24px;
+  }
+  .headphones__cart .products__add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .headphones__cart .products__add .headphone {
+    padding: 133px 50px 146px 50px;
+  }
+  .headphones__cart .products__add .headphone img {
+    width: 181px;
+  }
+  .headphones__cart .products__add .headphone::before {
+    width: 136px;
+    height: 29px;
+    bottom: 132px;
+  }
+  .headphones__cart .products__add .headphone__about {
+    width: 339px;
+    row-gap: 31px;
+  }
+  .headphones__cart .products__add .headphone__about .new__product {
+    row-gap: 17px;
+  }
+  .headphones__cart .products__add .headphone__about .new__product .headphone__info {
+    row-gap: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .headphones__cart {
+    row-gap: 24px;
+  }
+  .headphones__cart .products__add {
+    row-gap: 32px;
+  }
+  .headphones__cart .products__add .headphone {
+    padding: 56px 73px 70px 73px;
+  }
+  .headphones__cart .products__add .headphone img {
+    width: 181px;
+  }
+  .headphones__cart .products__add .headphone::before {
+    width: 136px;
+    height: 29px;
+    bottom: 56px;
+  }
+  .headphones__cart .products__add .headphone__about {
+    width: 327px;
+    row-gap: 31px;
+  }
+  .headphones__cart .products__add .headphone__about .new__product {
+    row-gap: 24px;
+  }
+  .headphones__cart .products__add .headphone__about .new__product .headphone__info {
+    row-gap: 24px;
+  }
+}
 .product__info {
   display: flex;
   gap: 120px 125px;
@@ -707,6 +767,38 @@ footer .footer .copyright .mobile .social__network {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1023px) {
+  .product__know {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .product__know .know {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+  }
+  .product__know .know .know1 {
+    width: 445px;
+    height: 280px;
+    background-image: url(/img/desktop/know1.png);
+    background-repeat: no-repeat;
+  }
+  .product__know .know .know2 {
+    width: 445px;
+    height: 280px;
+    background-image: url(/img/desktop/xx99-headphone.png);
+    background-repeat: no-repeat;
+  }
+  .product__know .know3 {
+    width: 635px;
+    height: 592px;
+    background-image: url(/img/desktop/xx99-mark-II.png);
+    background-repeat: no-repeat;
+  }
+}
 .head {
   width: 100%;
   background: #141414;
@@ -717,4 +809,17 @@ main {
   display: flex;
   flex-direction: column;
   row-gap: 160px;
+}
+
+@media only screen and (max-width: 1023px) {
+  main {
+    padding: 33px 0 120px 0;
+    row-gap: 120px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  main {
+    padding: 16px 0 120px 0;
+    row-gap: 88px;
+  }
 }/*# sourceMappingURL=details-products.css.map */
