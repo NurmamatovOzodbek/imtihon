@@ -676,6 +676,37 @@ footer .footer .copyright .mobile .social__network {
   color: #D87D4A;
 }
 
+.product__know {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product__know .know {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: center;
+}
+.product__know .know .know1 {
+  width: 445px;
+  height: 280px;
+  background-image: url(/img/desktop/know1.png);
+  background-repeat: no-repeat;
+}
+.product__know .know .know2 {
+  width: 445px;
+  height: 280px;
+  background-image: url(/img/desktop/xx99-headphone.png);
+  background-repeat: no-repeat;
+}
+.product__know .know3 {
+  width: 635px;
+  height: 592px;
+  background-image: url(/img/desktop/xx99-mark-II.png);
+  background-repeat: no-repeat;
+}
+
 .head {
   width: 100%;
   background: #141414;
