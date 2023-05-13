@@ -22,14 +22,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
   .headphone{
+    height: 560px;
+    width: 540px;
     position: relative;
     background: #F1F1F1;
     border-radius: 8px;
-    padding: 65px 95px 108.5px 95px;
     display: flex;
     justify-content: center;
+    align-items: center;
     img{
-      width: 349px;
       position: relative;
       z-index: 2;
     }
