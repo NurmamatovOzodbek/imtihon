@@ -32,32 +32,54 @@
 //Tablet media
 @media only screen and (max-width:1023px) {
   .product__know{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     .know{
-      display: flex;
-      flex-direction: column;
-      row-gap: 32px;
-      align-items: center;
+      row-gap: 20px;
       .know1{
-        width: 445px;
-        height: 280px;
-        background-image: url(/img/desktop/know1.png);
+        width: 277px;
+        height: 174px;
+        background-image: url(/img/tablet/headphones.png);
         background-repeat: no-repeat;
       }
       .know2{
-        width: 445px;
-        height: 280px;
-        background-image: url(/img/desktop/xx99-headphone.png);
+        width: 277px;
+        height: 174px;
+        background-image: url(/img/tablet/know1.png);
         background-repeat: no-repeat;
       }
     }
     .know3{
-      width: 635px;
-      height: 592px;
-      background-image: url(/img/desktop/xx99-mark-II.png);
+      width: 395px;
+      height: 368px;
+      background-image: url(/img/tablet/know2.png);
+      background-repeat:no-repeat;
+    }
+  }
+}
+
+
+//mobile media
+@media only screen and (max-width:767px) {
+  .product__know{
+    row-gap: 20px;
+    .know{
+      row-gap: 20px;
+      .know1{
+        width: 327px;
+        height: 174px;
+        background-image: url(/img/mobile/know1.png);
+        background-repeat: no-repeat;
+      }
+      .know2{
+        width: 327px;
+        height: 174px;
+        background-image: url(/img/mobile/know2.png);
+        background-repeat: no-repeat;
+      }
+    }
+    .know3{
+      width: 327px;
+      height: 368px;
+      background-image: url(/img/mobile/know3.png);
       background-repeat:no-repeat;
     }
   }

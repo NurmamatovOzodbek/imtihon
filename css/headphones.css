@@ -703,6 +703,11 @@ main {
     text-align: center;
     padding: 32px 84px;
   }
+  .head .header__name h1 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+  }
   main {
     padding: 64px 0;
     row-gap: 120px;

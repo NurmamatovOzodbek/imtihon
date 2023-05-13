@@ -355,6 +355,7 @@ main .products__info .earphones .earphones__info button a {
 }
 @media only screen and (max-width: 767px) {
   .head {
+    width: 100%;
     border-radius: 0;
   }
   .head .new__product {
