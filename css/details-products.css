@@ -503,15 +503,16 @@ footer .footer .copyright .mobile .social__network {
   flex-wrap: wrap;
 }
 .headphones__cart .products__add .headphone {
+  height: 560px;
+  width: 540px;
   position: relative;
   background: #F1F1F1;
   border-radius: 8px;
-  padding: 65px 95px 108.5px 95px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .headphones__cart .products__add .headphone img {
-  width: 349px;
   position: relative;
   z-index: 2;
 }
