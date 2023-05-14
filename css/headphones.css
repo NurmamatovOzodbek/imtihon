@@ -24,13 +24,13 @@ body button {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   body .container {
     max-width: 690px;
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   body .container {
     max-width: 327px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ header nav li a:hover {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   header .logo #gamburger {
     display: block;
   }
@@ -78,7 +78,7 @@ header nav li a:hover {
     display: none;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   header {
     padding: 32px 0;
   }
@@ -176,7 +176,7 @@ header nav li a:hover {
   width: 125px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .products .products__cart .shadow {
     transform: translate(73.2px, 52px);
   }
@@ -217,7 +217,7 @@ header nav li a:hover {
     width: 103px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .products {
     flex-wrap: wrap;
     row-gap: 16px;
@@ -296,7 +296,7 @@ header nav li a:hover {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .audio__gear {
     display: flex;
     justify-content: center;
@@ -313,7 +313,7 @@ header nav li a:hover {
     width: 573px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .audio__gear {
     display: flex;
     justify-content: center;
@@ -417,7 +417,7 @@ footer .footer .copyright .mobile .social__network {
   align-items: center;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   footer .footer {
     padding: 60px 0 46px 0;
     row-gap: 32px;
@@ -442,7 +442,7 @@ footer .footer .copyright .mobile .social__network {
     display: block;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   footer .footer {
     background-position: center top;
     padding: 52px 0 38px 0;
@@ -484,15 +484,17 @@ footer .footer .copyright .mobile .social__network {
   flex-wrap: wrap;
 }
 .headphones__cart .headphone {
+  width: 540px;
+  height: 560px;
   position: relative;
   background: #F1F1F1;
   border-radius: 8px;
-  padding: 65px 95px 108.5px 95px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .headphones__cart .headphone img {
-  width: 349px;
+  width: 300px;
   position: relative;
   z-index: 2;
 }
@@ -562,30 +564,17 @@ footer .footer .copyright .mobile .social__network {
   color: #FFFFFF;
 }
 
-.headphoe__games .headphone {
-  padding: 66px 122px 109px 122px;
-}
-.headphoe__games .headphone img {
-  width: 296px;
-}
-
-.white__headphones .headphone {
-  padding: 83px 83.7px 88px 83.2px;
-}
-.white__headphones .headphone img {
-  width: 373px;
-}
-
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .headphones__cart {
     justify-content: center;
     row-gap: 52px;
   }
   .headphones__cart .headphone {
-    padding: 41px 235px 68px 235px;
+    width: 690px;
+    height: 352px;
   }
   .headphones__cart .headphone img {
-    width: 220px;
+    width: 200px;
     position: relative;
     z-index: 2;
   }
@@ -608,28 +597,19 @@ footer .footer .copyright .mobile .social__network {
   }
   .headphoe__games .headphone {
     order: -1;
-    padding: 41px 257px 86px 259px;
-  }
-  .headphoe__games .headphone img {
-    width: 173px;
-  }
-  .white__headphones .headphone {
-    padding: 41px 235.6px 86px 237.6px;
-  }
-  .white__headphones .headphone img {
-    width: 216px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .headphones__cart {
     justify-content: center;
     row-gap: 32px;
   }
   .headphones__cart .headphone {
-    padding: 41px 54px 68px 54px;
+    width: 327px;
+    height: 352px;
   }
   .headphones__cart .headphone img {
-    width: 220px;
+    width: 200px;
     position: relative;
     z-index: 2;
   }
@@ -653,16 +633,6 @@ footer .footer .copyright .mobile .social__network {
   }
   .headphoe__games .headphone {
     order: -1;
-    padding: 41px 76px 86px 78px;
-  }
-  .headphoe__games .headphone img {
-    width: 173px;
-  }
-  .white__headphones .headphone {
-    padding: 41px 54.6px 86px 56.6px;
-  }
-  .white__headphones .headphone img {
-    width: 216px;
   }
 }
 .head {
@@ -689,7 +659,7 @@ main {
   row-gap: 160px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .head .header__name {
     text-align: center;
     padding: 105px 0 98px 0;
@@ -699,7 +669,7 @@ main {
     row-gap: 120px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .head .header__name {
     text-align: center;
     padding: 32px 84px;

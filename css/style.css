@@ -24,13 +24,13 @@ body button {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   body .container {
     max-width: 690px;
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   body .container {
     max-width: 327px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ header nav li a:hover {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   header .logo #gamburger {
     display: block;
   }
@@ -78,7 +78,7 @@ header nav li a:hover {
     display: none;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   header {
     padding: 32px 0;
   }
@@ -307,7 +307,7 @@ main .products__info .earphones .earphones__info button a {
   color: #000000;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .head {
     border-radius: 0;
   }
@@ -354,7 +354,7 @@ main .products__info .earphones .earphones__info button a {
     padding: 101px 53px 101px 41px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .head {
     width: 100%;
     border-radius: 0;
@@ -520,7 +520,7 @@ main .products__info .earphones .earphones__info button a {
   width: 125px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .products .products__cart .shadow {
     transform: translate(73.2px, 52px);
   }
@@ -561,7 +561,7 @@ main .products__info .earphones .earphones__info button a {
     width: 103px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .products {
     flex-wrap: wrap;
     row-gap: 16px;
@@ -640,7 +640,7 @@ main .products__info .earphones .earphones__info button a {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .audio__gear {
     display: flex;
     justify-content: center;
@@ -657,7 +657,7 @@ main .products__info .earphones .earphones__info button a {
     width: 573px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .audio__gear {
     display: flex;
     justify-content: center;
@@ -761,7 +761,7 @@ footer .footer .copyright .mobile .social__network {
   align-items: center;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   footer .footer {
     padding: 60px 0 46px 0;
     row-gap: 32px;
@@ -786,7 +786,7 @@ footer .footer .copyright .mobile .social__network {
     display: block;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   footer .footer {
     background-position: center top;
     padding: 52px 0 38px 0;

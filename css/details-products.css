@@ -24,13 +24,13 @@ body button {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   body .container {
     max-width: 690px;
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   body .container {
     max-width: 327px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ header nav li a:hover {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   header .logo #gamburger {
     display: block;
   }
@@ -78,7 +78,7 @@ header nav li a:hover {
     display: none;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   header {
     padding: 32px 0;
   }
@@ -172,7 +172,7 @@ footer .footer .copyright .mobile .social__network {
   align-items: center;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   footer .footer {
     padding: 60px 0 46px 0;
     row-gap: 32px;
@@ -197,7 +197,7 @@ footer .footer .copyright .mobile .social__network {
     display: block;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   footer .footer {
     background-position: center top;
     padding: 52px 0 38px 0;
@@ -269,7 +269,7 @@ footer .footer .copyright .mobile .social__network {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .audio__gear {
     display: flex;
     justify-content: center;
@@ -286,7 +286,7 @@ footer .footer .copyright .mobile .social__network {
     width: 573px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .audio__gear {
     display: flex;
     justify-content: center;
@@ -394,7 +394,7 @@ footer .footer .copyright .mobile .social__network {
   width: 125px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .products .products__cart .shadow {
     transform: translate(73.2px, 52px);
   }
@@ -435,7 +435,7 @@ footer .footer .copyright .mobile .social__network {
     width: 103px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .products {
     flex-wrap: wrap;
     row-gap: 16px;
@@ -626,7 +626,7 @@ footer .footer .copyright .mobile .social__network {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .headphones__cart {
     row-gap: 24px;
   }
@@ -637,7 +637,8 @@ footer .footer .copyright .mobile .social__network {
     flex-wrap: wrap;
   }
   .headphones__cart .products__add .headphone {
-    padding: 133px 50px 146px 50px;
+    width: 281px;
+    height: 480px;
   }
   .headphones__cart .products__add .headphone img {
     width: 181px;
@@ -658,7 +659,7 @@ footer .footer .copyright .mobile .social__network {
     row-gap: 32px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .headphones__cart {
     row-gap: 24px;
   }
@@ -666,10 +667,8 @@ footer .footer .copyright .mobile .social__network {
     row-gap: 32px;
   }
   .headphones__cart .products__add .headphone {
-    padding: 56px 73px 70px 73px;
-  }
-  .headphones__cart .products__add .headphone img {
-    width: 181px;
+    width: 327px;
+    height: 327px;
   }
   .headphones__cart .products__add .headphone::before {
     width: 136px;
@@ -711,11 +710,13 @@ footer .footer .copyright .mobile .social__network {
   row-gap: 40px;
 }
 .like__products .product__all .product__one .headphone {
+  width: 350px;
+  height: 318px;
   background: #F1F1F1;
   border-radius: 8px;
-  padding: 63px 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .like__products .product__all .product__one .headphone img {
   width: 148.3px;
@@ -751,20 +752,8 @@ footer .footer .copyright .mobile .social__network {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.like__products .product__all .product__two .headphone {
-  padding: 60px 79px;
-}
-.like__products .product__all .product__two .headphone img {
-  width: 191px;
-}
-.like__products .product__all .product__three .headphone {
-  padding: 73px 103px;
-}
-.like__products .product__all .product__three .headphone img {
-  width: 143px;
-}
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .like__products {
     row-gap: 56px;
   }
@@ -774,16 +763,10 @@ footer .footer .copyright .mobile .social__network {
     flex-wrap: wrap;
   }
   .like__products .product__all .product__one .headphone {
-    padding: 63px 37px;
-  }
-  .like__products .product__all .product__two .headphone {
-    padding: 60px 16px;
-  }
-  .like__products .product__all .product__three .headphone {
-    padding: 73px 40px;
+    width: 223px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .like__products {
     row-gap: 40px;
   }
@@ -798,22 +781,11 @@ footer .footer .copyright .mobile .social__network {
     row-gap: 32px;
   }
   .like__products .product__all .product__one .headphone {
-    padding: 13px 127px;
+    width: 327px;
+    height: 120px;
   }
   .like__products .product__all .product__one .headphone img {
     width: 73px;
-  }
-  .like__products .product__all .product__two .headphone {
-    padding: 19px 124px;
-  }
-  .like__products .product__all .product__two .headphone img {
-    width: 80px;
-  }
-  .like__products .product__all .product__three .headphone {
-    padding: 17px 128px;
-  }
-  .like__products .product__all .product__three .headphone img {
-    width: 72px;
   }
 }
 .product__info {
@@ -872,7 +844,7 @@ footer .footer .copyright .mobile .social__network {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   .product__info .feature {
     max-width: 690px;
   }
@@ -890,7 +862,7 @@ footer .footer .copyright .mobile .social__network {
          column-gap: 21px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .product__info {
     row-gap: 88px;
   }
@@ -930,51 +902,51 @@ footer .footer .copyright .mobile .social__network {
   row-gap: 32px;
   align-items: center;
 }
-.product__know .know .know1 {
-  width: 445px;
-  height: 280px;
-  background-image: url(/img/desktop/know1.png);
-  background-repeat: no-repeat;
+.product__know #tablet {
+  display: none;
 }
-.product__know .know .know2 {
-  width: 445px;
-  height: 280px;
-  background-image: url(/img/desktop/xx99-headphone.png);
-  background-repeat: no-repeat;
-}
-.product__know .know3 {
-  width: 635px;
-  height: 592px;
-  background-image: url(/img/desktop/xx99-mark-II.png);
-  background-repeat: no-repeat;
+.product__know #mobile {
+  display: none;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
+  .product__know #desktop {
+    display: none;
+  }
+  .product__know #tablet {
+    display: block;
+  }
+  .product__know #mobile {
+    display: none;
+  }
   .product__know .know {
     row-gap: 20px;
   }
   .product__know .know .know1 {
     width: 277px;
     height: 174px;
-    background-image: url(/img/tablet/headphones.png);
-    background-repeat: no-repeat;
   }
   .product__know .know .know2 {
     width: 277px;
     height: 174px;
-    background-image: url(/img/tablet/know1.png);
-    background-repeat: no-repeat;
   }
   .product__know .know3 {
     width: 395px;
     height: 368px;
-    background-image: url(/img/tablet/know2.png);
-    background-repeat: no-repeat;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .product__know {
     row-gap: 20px;
+  }
+  .product__know #desktop {
+    display: none;
+  }
+  .product__know #tablet {
+    display: none;
+  }
+  .product__know #mobile {
+    display: block;
   }
   .product__know .know {
     row-gap: 20px;
@@ -982,20 +954,14 @@ footer .footer .copyright .mobile .social__network {
   .product__know .know .know1 {
     width: 327px;
     height: 174px;
-    background-image: url(/img/mobile/know1.png);
-    background-repeat: no-repeat;
   }
   .product__know .know .know2 {
     width: 327px;
     height: 174px;
-    background-image: url(/img/mobile/know2.png);
-    background-repeat: no-repeat;
   }
   .product__know .know3 {
     width: 327px;
     height: 368px;
-    background-image: url(/img/mobile/know3.png);
-    background-repeat: no-repeat;
   }
 }
 .head {
@@ -1010,13 +976,13 @@ main {
   row-gap: 160px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
   main {
     padding: 33px 0 120px 0;
     row-gap: 120px;
   }
 }
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 600px) {
   main {
     padding: 16px 0 120px 0;
     row-gap: 88px;
