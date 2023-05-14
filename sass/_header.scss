@@ -35,7 +35,7 @@ header{
 }
 
 // tablet media
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:1000px){
   header{
       .logo{
         #gamburger{
@@ -50,7 +50,7 @@ header{
 }
 
 // mobile media
-@media only screen and (max-width:767px){
+@media only screen and (max-width:600px){
   header{
     padding:32px 0;
       .logo{

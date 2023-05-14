@@ -82,7 +82,7 @@ footer{
 
 
 //Tablet media
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:1000px) {
   footer{
     .footer{
       padding: 60px 0 46px 0;
@@ -113,7 +113,7 @@ footer{
 }
 
 //Mobile media
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:600px) {
   footer{
     .footer{
       background-position: center top;

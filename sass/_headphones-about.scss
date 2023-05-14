@@ -4,14 +4,16 @@
   justify-content: space-between;
   flex-wrap: wrap;
   .headphone{
+    width: 540px;
+    height: 560px;
     position: relative;
     background: #F1F1F1;
     border-radius: 8px;
-    padding: 65px 95px 108.5px 95px;
     display: flex;
     justify-content: center;
+    align-items: center;
     img{
-      width: 349px;
+      width: 300px;
       position: relative;
       z-index: 2;
     }
@@ -82,32 +84,17 @@
     }
   }
 }
-.headphoe__games{
-  .headphone{
-    padding: 66px 122px 109px 122px;
-    img{
-      width: 296px;
-    }
-  }
-}
-.white__headphones{
-  .headphone{
-    padding: 83px 83.7px 88px 83.2px;
-    img{
-      width: 373px;
-    }
-  }
-}
 
 //tablet media
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:1000px){
   .headphones__cart{
     justify-content: center;
     row-gap: 52px;
     .headphone{
-      padding: 41px 235px 68px 235px;
+      width: 690px;
+      height: 352px;
       img{
-        width: 220px;
+        width: 200px;
         position: relative;
         z-index: 2;
       }
@@ -133,31 +120,20 @@
   .headphoe__games{
     .headphone{
       order: -1;
-      padding: 41px 257px 86px 259px;
-      img{
-        width: 173px;
-      }
-    }
-  }
-  .white__headphones{
-    .headphone{
-      padding: 41px 235.6px 86px 237.6px;
-      img{
-        width: 216px;
-      }
     }
   }
 }
 
 //mobile media
-@media only screen and (max-width:767px){
+@media only screen and (max-width:600px){
   .headphones__cart{
     justify-content: center;
     row-gap: 32px;
     .headphone{
-      padding: 41px 54px 68px 54px;
+      width: 327px;
+      height: 352px;
       img{
-        width: 220px;
+        width: 200px;
         position: relative;
         z-index: 2;
       }
@@ -184,18 +160,6 @@
   .headphoe__games{
     .headphone{
       order: -1;
-      padding: 41px 76px 86px 78px;
-      img{
-        width: 173px;
-      }
-    }
-  }
-  .white__headphones{
-    .headphone{
-      padding: 41px 54.6px 86px 56.6px;
-      img{
-        width: 216px;
-      }
     }
   }
 }

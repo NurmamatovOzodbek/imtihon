@@ -25,8 +25,10 @@ body{
   }
 }
 
+
+
 // tablet media
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:1000px) {
   body{
     .container{
       max-width: 690px;
@@ -36,7 +38,7 @@ body{
 }
 
 // mobile media
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:600px) {
   body{
     .container{
       max-width: 327px;

@@ -21,7 +21,7 @@ main{
 
 
 //Tablet media
-@media only screen  and (max-width:1023px){
+@media only screen  and (max-width:1000px){
   main{
     padding: 33px 0 120px 0;
     row-gap: 120px;
@@ -30,7 +30,7 @@ main{
 
 
 //mobile media
-@media only screen  and (max-width:1023px){
+@media only screen  and (max-width:600px){
   main{
     padding: 16px 0 120px 0;
     row-gap: 88px;

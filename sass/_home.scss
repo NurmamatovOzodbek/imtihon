@@ -215,7 +215,7 @@ main{
 
 // Tablet media
 
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:1000px){
   .head{
     border-radius: 0;
     .new__product{
@@ -266,7 +266,7 @@ main{
 }
 
 // Mobile media
-@media only screen and (max-width:767px){
+@media only screen and (max-width:600px){
   .head{
     width: 100%;
     border-radius: 0;

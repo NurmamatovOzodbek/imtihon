@@ -19,11 +19,13 @@
       flex-direction: column;
       row-gap: 40px;
       .headphone{
+        width: 350px;
+        height: 318px;
         background: #F1F1F1;
         border-radius: 8px;
-        padding: 63px 100px;
         display: flex;
         justify-content: center;
+        align-items: center;
         img{
           width: 148.3px;
         }
@@ -60,28 +62,12 @@
         }
       }
     }
-    .product__two{
-      .headphone{
-        padding: 60px 79px;
-        img{
-          width: 191px;
-        }
-      }
-    }
-    .product__three{
-      .headphone{
-        padding: 73px 103px;
-        img{
-          width: 143px;
-        }
-      }
-    }
   }
 }
 
 
 //Tablet media
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:1000px){
   .like__products{
     row-gap: 56px;
     .product__all{
@@ -90,17 +76,7 @@
       flex-wrap: wrap;
       .product__one{
         .headphone{
-          padding: 63px 37px;
-        }
-      }
-      .product__two{
-        .headphone{
-          padding: 60px 16px;
-        }
-      }
-      .product__three{
-        .headphone{
-          padding: 73px 40px;
+          width: 223px;
         }
       }
     }
@@ -109,7 +85,7 @@
 
 
 //Mobile media
-@media only screen and (max-width:767px){
+@media only screen and (max-width:600px){
   .like__products{
     row-gap: 40px;
     h2{
@@ -121,25 +97,10 @@
       .product__one{
         row-gap: 32px;
         .headphone{
-          padding: 13px 127px;
+         width: 327px;
+         height: 120px;
           img{
             width: 73px;
-          }
-        }
-      }
-      .product__two{
-        .headphone{
-          padding: 19px 124px;
-          img{
-            width: 80px;
-          }
-        }
-      }
-      .product__three{
-        .headphone{
-          padding: 17px 128px;
-          img{
-            width: 72px;
           }
         }
       }

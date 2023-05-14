@@ -83,7 +83,7 @@
 }
 
 // Tablet media
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:1000px) {
   .products{
     .products__cart{
       .shadow{
@@ -131,7 +131,7 @@
 
 
 // Mobile media
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:600px) {
   .products{
     flex-wrap: wrap;
     row-gap: 16px;

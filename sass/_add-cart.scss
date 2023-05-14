@@ -150,7 +150,7 @@
 }
 
 //Tablet media
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:1000px) {
   .headphones__cart{
     row-gap: 24px;
    .products__add{
@@ -159,7 +159,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     .headphone{
-      padding: 133px 50px 146px 50px;
+      width: 281px;
+      height: 480px;
       img{
         width: 181px;
       }
@@ -184,16 +185,14 @@
 }
 
 //Mobile media
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:600px) {
   .headphones__cart{
     row-gap: 24px;
    .products__add{
     row-gap: 32px;
     .headphone{
-      padding: 56px 73px 70px 73px;
-      img{
-        width: 181px;
-      }
+      width: 327px;
+      height: 327px;
       &::before{
         width: 136px;
         height: 29px;
