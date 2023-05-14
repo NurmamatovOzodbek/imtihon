@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   .know{
     display: flex;
     flex-direction: column;
@@ -20,6 +19,8 @@
 //Tablet media
 @media only screen and (max-width:1000px) {
   .product__know{
+    flex-wrap: nowrap;
+    column-gap: 18px;
     #desktop{
       display: none;
     }
@@ -52,6 +53,7 @@
 @media only screen and (max-width:600px) {
   .product__know{
     row-gap: 20px;
+    flex-direction: column;
     #desktop{
       display: none;
     }
