@@ -894,7 +894,6 @@ footer .footer .copyright .mobile .social__network {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 .product__know .know {
   display: flex;
@@ -910,6 +909,11 @@ footer .footer .copyright .mobile .social__network {
 }
 
 @media only screen and (max-width: 1000px) {
+  .product__know {
+    flex-wrap: nowrap;
+    -moz-column-gap: 18px;
+         column-gap: 18px;
+  }
   .product__know #desktop {
     display: none;
   }
@@ -938,6 +942,7 @@ footer .footer .copyright .mobile .social__network {
 @media only screen and (max-width: 600px) {
   .product__know {
     row-gap: 20px;
+    flex-direction: column;
   }
   .product__know #desktop {
     display: none;
