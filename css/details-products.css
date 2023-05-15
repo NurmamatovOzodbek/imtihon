@@ -901,12 +901,6 @@ footer .footer .copyright .mobile .social__network {
   row-gap: 32px;
   align-items: center;
 }
-.product__know #tablet {
-  display: none;
-}
-.product__know #mobile {
-  display: none;
-}
 
 @media only screen and (max-width: 1000px) {
   .product__know {
@@ -914,29 +908,14 @@ footer .footer .copyright .mobile .social__network {
     -moz-column-gap: 18px;
          column-gap: 18px;
   }
-  .product__know #desktop {
-    display: none;
-  }
-  .product__know #tablet {
-    display: block;
-  }
-  .product__know #mobile {
-    display: none;
-  }
   .product__know .know {
     row-gap: 20px;
   }
-  .product__know .know .know1 {
+  .product__know .know img {
     width: 277px;
-    height: 174px;
   }
-  .product__know .know .know2 {
-    width: 277px;
-    height: 174px;
-  }
-  .product__know .know3 {
+  .product__know img {
     width: 395px;
-    height: 368px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -944,29 +923,14 @@ footer .footer .copyright .mobile .social__network {
     row-gap: 20px;
     flex-direction: column;
   }
-  .product__know #desktop {
-    display: none;
-  }
-  .product__know #tablet {
-    display: none;
-  }
-  .product__know #mobile {
-    display: block;
-  }
   .product__know .know {
     row-gap: 20px;
   }
-  .product__know .know .know1 {
+  .product__know .know img {
     width: 327px;
-    height: 174px;
   }
-  .product__know .know .know2 {
+  .product__know img {
     width: 327px;
-    height: 174px;
-  }
-  .product__know .know3 {
-    width: 327px;
-    height: 368px;
   }
 }
 .head {
