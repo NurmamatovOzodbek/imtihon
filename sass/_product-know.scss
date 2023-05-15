@@ -8,12 +8,6 @@
     row-gap: 32px;
     align-items: center;
   }
-  #tablet{
-    display: none;
-  }
-  #mobile{
-    display: none;
-  }
 }
 
 //Tablet media
@@ -21,29 +15,14 @@
   .product__know{
     flex-wrap: nowrap;
     column-gap: 18px;
-    #desktop{
-      display: none;
-    }
-    #tablet{
-      display: block;
-    }
-    #mobile{
-      display: none;
-    }
     .know{
       row-gap: 20px;
-      .know1{
+      img{
         width: 277px;
-        height: 174px;
-      }
-      .know2{
-        width: 277px;
-        height: 174px;
       }
     }
-    .know3{
+    img{
       width: 395px;
-      height: 368px;
     }
   }
 }
@@ -54,29 +33,14 @@
   .product__know{
     row-gap: 20px;
     flex-direction: column;
-    #desktop{
-      display: none;
-    }
-    #tablet{
-      display: none;
-    }
-    #mobile{
-      display: block;
-    }
     .know{
       row-gap: 20px;
-      .know1{
+      img{
         width: 327px;
-        height: 174px;
-      }
-      .know2{
-        width: 327px;
-        height: 174px;
       }
     }
-    .know3{
+    img{
       width: 327px;
-      height: 368px;
     }
   }
 }
