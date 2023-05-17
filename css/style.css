@@ -144,6 +144,7 @@ header nav li a:hover {
   width: 160px;
   padding: 15px 0;
   background: #D87D4A;
+  border: 0;
 }
 .head .new__product button:hover {
   background: #FBAF85;
@@ -510,13 +511,13 @@ main .products__info .earphones .earphones__info button a {
 .products .kalonka .shadow {
   transform: translate(113.52px, 72.5px);
 }
-.products .mini__kalonka {
+.products .earphone {
   margin-top: 35px;
 }
-.products .mini__kalonka .shadow {
+.products .earphone .shadow {
   transform: translate(109px, 63px);
 }
-.products .mini__kalonka .shadow img {
+.products .earphone .shadow img {
   width: 125px;
 }
 
@@ -551,13 +552,13 @@ main .products__info .earphones .earphones__info button a {
   .products .kalonka .shadow img {
     width: 84px;
   }
-  .products .mini__kalonka {
+  .products .earphone {
     margin-top: 10px;
   }
-  .products .mini__kalonka .shadow {
+  .products .earphone .shadow {
     transform: translate(57px, 52px);
   }
-  .products .mini__kalonka .shadow img {
+  .products .earphone .shadow img {
     width: 103px;
   }
 }
@@ -593,13 +594,13 @@ main .products__info .earphones .earphones__info button a {
   .products .kalonka .shadow {
     transform: translate(121px, 52px);
   }
-  .products .mini__kalonka {
+  .products .earphone {
     margin-top: -36px;
   }
-  .products .mini__kalonka .shadow {
+  .products .earphone .shadow {
     transform: translate(112px, 52px);
   }
-  .products .mini__kalonka .shadow img {
+  .products .earphone .shadow img {
     width: 103px;
   }
 }
