@@ -250,12 +250,15 @@ main {
 main .checkout__summary {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  row-gap: 32px;
 }
 main .checkout__summary .checkout {
   max-width: 730px;
   background: white;
   border-radius: 8px;
-  padding: 54px 0 48px 48px;
+  padding: 54px 48px;
   display: flex;
   flex-direction: column;
   row-gap: 41px;
@@ -282,6 +285,7 @@ main .checkout__summary .checkout label {
   letter-spacing: -0.214286px;
 }
 main .checkout__summary .checkout .billing__details {
+  width: 634px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -297,8 +301,8 @@ main .checkout__summary .checkout .billing__details .forms form {
   row-gap: 9px;
 }
 main .checkout__summary .checkout .billing__details .forms form input {
-  width: 309px;
-  padding: 19px 0 19px 24px;
+  padding: 18px 22px;
+  width: 263.4px;
   background: #FFFFFF;
   border: 1px solid #CFCFCF;
   border-radius: 8px;
@@ -336,8 +340,8 @@ main .checkout__summary .checkout .billing__details .forms form input input::pla
   opacity: 0.4;
 }
 main .checkout__summary .checkout .shipping__info .forms form #address {
-  width: 658px;
-  padding: 19px 0 19px 24px;
+  width: 588.4px;
+  padding: 18px 22px;
 }
 main .checkout__summary .checkout .payment__details {
   display: flex;
@@ -346,8 +350,8 @@ main .checkout__summary .checkout .payment__details {
 }
 main .checkout__summary .checkout .payment__details .billing__details .payment__method {
   display: flex;
-  -moz-column-gap: 253px;
-       column-gap: 253px;
+  gap: 17px 253px;
+  flex-wrap: wrap;
 }
 main .checkout__summary .checkout .payment__details .billing__details .payment__method span {
   font-weight: 700;
@@ -361,8 +365,8 @@ main .checkout__summary .checkout .payment__details .billing__details .payment__
   row-gap: 16px;
 }
 main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
-  width: 309px;
-  padding: 18px 8px 18px 16px;
+  padding: 18px 22px;
+  width: 263.4px;
   background: #FFFFFF;
   border: 1px solid #CFCFCF;
   border-radius: 8px;
@@ -413,5 +417,178 @@ main .checkout__summary .summary {
   width: 284px;
   background: #FFFFFF;
   border-radius: 8px;
-  padding: 32px 0 32px 33px;
+  padding: 32px 33px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+main .checkout__summary .summary h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+}
+main .checkout__summary .summary .buy__products {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+main .checkout__summary .summary .buy__products .products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .checkout__summary .summary .buy__products .products .product__info {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+main .checkout__summary .summary .buy__products .products .product__info .product__images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #F1F1F1;
+  border-radius: 8px;
+}
+main .checkout__summary .summary .buy__products .products .product__info .product__images img {
+  width: 36px;
+}
+main .checkout__summary .summary .buy__products .products .product__info .info h5 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+main .checkout__summary .summary .buy__products .products .product__info .info strong {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+main .checkout__summary .summary .buy__products .products span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+main .checkout__summary .summary .total__cost {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+main .checkout__summary .summary .total__cost h6 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+main .checkout__summary .summary .total__cost strong {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+main .checkout__summary .summary .total__cost .total {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+main .checkout__summary .summary .total__cost .total .cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .checkout__summary .summary .total__cost .grand__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .checkout__summary .summary .total__cost .grand__total strong {
+  color: #D87D4A;
+}
+main .checkout__summary .summary button {
+  padding: 15px 0;
+  background: #D87D4A;
+  border: 0;
+}
+main .checkout__summary .summary button:hover {
+  background: #FBAF85;
+}
+main .checkout__summary .summary button:hover a {
+  display: none;
+}
+main .checkout__summary .summary button:hover #continue {
+  display: block;
+}
+main .checkout__summary .summary button a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+main .checkout__summary .summary button #continue {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  main {
+    padding: 48px 0 116px 0;
+    row-gap: 24px;
+  }
+  main .checkout__summary .checkout {
+    padding: 30px 28px;
+  }
+  main .checkout__summary .summary {
+    width: 689px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 16px 0 97px 0;
+    row-gap: 24px;
+  }
+  main .checkout__summary .checkout {
+    max-width: 327px;
+    padding: 24px;
+    row-gap: 32px;
+  }
+  main .checkout__summary .checkout h1 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+  }
+  main .checkout__summary .checkout .billing__details {
+    width: 280px;
+  }
+  main .checkout__summary .checkout .billing__details .forms form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+  }
+  main .checkout__summary .checkout .billing__details .forms form input {
+    width: 234.4px;
+  }
+  main .checkout__summary .checkout .shipping__info .forms form #address {
+    width: 234.4px;
+  }
+  main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
+    width: 234.4px;
+  }
+  main .checkout__summary .checkout .payment__details .billing__details .forms {
+    margin-top: 8px;
+  }
 }/*# sourceMappingURL=checkout.css.map */
