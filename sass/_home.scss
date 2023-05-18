@@ -2,7 +2,7 @@
   width: 100%;
   background: #141414;
   border-radius: 8px;
-  .new__product{
+  .promo{
     background-image: url(/img/desktop/head-fon.png);
     background-repeat: no-repeat;
     background-position: right -100px;
@@ -219,7 +219,7 @@ main{
 @media only screen and (max-width:1000px){
   .head{
     border-radius: 0;
-    .new__product{
+    .promo{
       background-image: url(/img/tablet/head-fon.png);
       background-position: center -100px;
       align-items: center;
@@ -271,7 +271,7 @@ main{
   .head{
     width: 100%;
     border-radius: 0;
-    .new__product{
+    .promo{
       background-image: url(/img/mobile/head-fon.png);
       background-position: center -85px;
       padding:108px 0 112px 0;

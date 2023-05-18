@@ -1,32 +1,34 @@
 header{
   width: 100%;
-  padding:32px 0 36px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  .logo{
+  .header{
+    padding:32px 0 36px 0;
     display: flex;
     align-items: center;
-    column-gap: 42px;
-    #gamburger{
-      display: none;
-    }
-  }
-  nav{
-    width: 429px;
-    display: flex;
     justify-content: space-between;
-    li{
-      a{
-        font-weight: 700;
-        font-size: 13px;
-        line-height: 25px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        &:hover{
-          color: #D87D4A;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    .logo{
+      display: flex;
+      align-items: center;
+      column-gap: 42px;
+      #gamburger{
+        display: none;
+      }
+    }
+    nav{
+      width: 429px;
+      display: flex;
+      justify-content: space-between;
+      li{
+        a{
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 25px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          &:hover{
+            color: #D87D4A;
+          }
         }
       }
     }
@@ -37,6 +39,7 @@ header{
 // tablet media
 @media only screen and (max-width:1000px){
   header{
+    .header{
       .logo{
         #gamburger{
           display: block;
@@ -45,14 +48,15 @@ header{
       nav{
         display: none;
       }
-
+    }
   }
 }
 
 // mobile media
 @media only screen and (max-width:600px){
   header{
-    padding:32px 0;
+    .header{
+      padding:32px 0;
       .logo{
         column-gap: 76px;
         #gamburger{
@@ -62,6 +66,7 @@ header{
       nav{
         display: none;
       }
+    }
 
     }
 }
