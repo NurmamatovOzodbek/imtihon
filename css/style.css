@@ -38,27 +38,29 @@ body button {
 }
 header {
   width: 100%;
+}
+header .header {
   padding: 32px 0 36px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-header .logo {
+header .header .logo {
   display: flex;
   align-items: center;
   -moz-column-gap: 42px;
        column-gap: 42px;
 }
-header .logo #gamburger {
+header .header .logo #gamburger {
   display: none;
 }
-header nav {
+header .header nav {
   width: 429px;
   display: flex;
   justify-content: space-between;
 }
-header nav li a {
+header .header nav li a {
   font-weight: 700;
   font-size: 13px;
   line-height: 25px;
@@ -66,30 +68,30 @@ header nav li a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-header nav li a:hover {
+header .header nav li a:hover {
   color: #D87D4A;
 }
 
 @media only screen and (max-width: 1000px) {
-  header .logo #gamburger {
+  header .header .logo #gamburger {
     display: block;
   }
-  header nav {
+  header .header nav {
     display: none;
   }
 }
 @media only screen and (max-width: 600px) {
-  header {
+  header .header {
     padding: 32px 0;
   }
-  header .logo {
+  header .header .logo {
     -moz-column-gap: 76px;
          column-gap: 76px;
   }
-  header .logo #gamburger {
+  header .header .logo #gamburger {
     display: block;
   }
-  header nav {
+  header .header nav {
     display: none;
   }
 }
@@ -98,7 +100,7 @@ header nav li a:hover {
   background: #141414;
   border-radius: 8px;
 }
-.head .new__product {
+.head .promo {
   background-image: url(/img/desktop/head-fon.png);
   background-repeat: no-repeat;
   background-position: right -100px;
@@ -107,13 +109,13 @@ header nav li a:hover {
   flex-direction: column;
   row-gap: 40px;
 }
-.head .new__product .np__about {
+.head .promo .np__about {
   max-width: 398px;
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
-.head .new__product .np__about span {
+.head .promo .np__about span {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -123,7 +125,7 @@ header nav li a:hover {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-.head .new__product .np__about h1 {
+.head .promo .np__about h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 58px;
@@ -131,7 +133,7 @@ header nav li a:hover {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.head .new__product .np__about p {
+.head .promo .np__about p {
   width: 349px;
   font-weight: 500;
   font-size: 15px;
@@ -140,16 +142,16 @@ header nav li a:hover {
   mix-blend-mode: normal;
   opacity: 0.75;
 }
-.head .new__product button {
+.head .promo button {
   width: 160px;
   padding: 15px 0;
   background: #D87D4A;
   border: 0;
 }
-.head .new__product button:hover {
+.head .promo button:hover {
   background: #FBAF85;
 }
-.head .new__product button a {
+.head .promo button a {
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
@@ -312,7 +314,7 @@ main .products__info .earphones .earphones__info button a {
   .head {
     border-radius: 0;
   }
-  .head .new__product {
+  .head .promo {
     background-image: url(/img/tablet/head-fon.png);
     background-position: center -100px;
     align-items: center;
@@ -360,7 +362,7 @@ main .products__info .earphones .earphones__info button a {
     width: 100%;
     border-radius: 0;
   }
-  .head .new__product {
+  .head .promo {
     background-image: url(/img/mobile/head-fon.png);
     background-position: center -85px;
     padding: 108px 0 112px 0;
@@ -368,21 +370,21 @@ main .products__info .earphones .earphones__info button a {
     text-align: center;
     row-gap: 28px;
   }
-  .head .new__product .np__about {
+  .head .promo .np__about {
     max-width: 328px;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
   }
-  .head .new__product .np__about span {
+  .head .promo .np__about span {
     margin-bottom: -8px;
   }
-  .head .new__product .np__about h1 {
+  .head .promo .np__about h1 {
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 1.28571px;
   }
-  .head .new__product .np__about p {
+  .head .promo .np__about p {
     width: 328px;
   }
   main {

@@ -38,27 +38,29 @@ body button {
 }
 header {
   width: 100%;
+}
+header .header {
   padding: 32px 0 36px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-header .logo {
+header .header .logo {
   display: flex;
   align-items: center;
   -moz-column-gap: 42px;
        column-gap: 42px;
 }
-header .logo #gamburger {
+header .header .logo #gamburger {
   display: none;
 }
-header nav {
+header .header nav {
   width: 429px;
   display: flex;
   justify-content: space-between;
 }
-header nav li a {
+header .header nav li a {
   font-weight: 700;
   font-size: 13px;
   line-height: 25px;
@@ -66,30 +68,30 @@ header nav li a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-header nav li a:hover {
+header .header nav li a:hover {
   color: #D87D4A;
 }
 
 @media only screen and (max-width: 1000px) {
-  header .logo #gamburger {
+  header .header .logo #gamburger {
     display: block;
   }
-  header nav {
+  header .header nav {
     display: none;
   }
 }
 @media only screen and (max-width: 600px) {
-  header {
+  header .header {
     padding: 32px 0;
   }
-  header .logo {
+  header .header .logo {
     -moz-column-gap: 76px;
          column-gap: 76px;
   }
-  header .logo #gamburger {
+  header .header .logo #gamburger {
     display: block;
   }
-  header nav {
+  header .header nav {
     display: none;
   }
 }
