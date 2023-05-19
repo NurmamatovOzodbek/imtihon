@@ -392,9 +392,6 @@ footer .footer .copyright .mobile .social__network {
 .products .earphone .shadow {
   transform: translate(109px, 63px);
 }
-.products .earphone .shadow img {
-  width: 125px;
-}
 
 @media only screen and (max-width: 1000px) {
   .products .products__cart .shadow {

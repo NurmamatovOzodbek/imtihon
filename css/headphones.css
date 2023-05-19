@@ -174,9 +174,6 @@ header .header nav li a:hover {
 .products .earphone .shadow {
   transform: translate(109px, 63px);
 }
-.products .earphone .shadow img {
-  width: 125px;
-}
 
 @media only screen and (max-width: 1000px) {
   .products .products__cart .shadow {
@@ -654,7 +651,7 @@ footer .footer .copyright .mobile .social__network {
   color: #FFFFFF;
 }
 
-main {
+main .main__section {
   padding: 160px 0;
   display: flex;
   flex-direction: column;
@@ -666,7 +663,7 @@ main {
     text-align: center;
     padding: 105px 0 98px 0;
   }
-  main {
+  main .main__section {
     padding: 120px 0;
     row-gap: 120px;
   }
@@ -681,7 +678,7 @@ main {
     line-height: 38px;
     letter-spacing: 2px;
   }
-  main {
+  main .main__section {
     padding: 64px 0;
     row-gap: 120px;
   }

@@ -245,18 +245,20 @@ body {
 
 main {
   padding: 80px 0 140px 0;
+}
+main .main__section {
   display: flex;
   flex-direction: column;
   row-gap: 38px;
 }
-main .checkout__summary {
+main .main__section .checkout__summary {
   display: flex;
+  row-gap: 32px;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  row-gap: 32px;
 }
-main .checkout__summary .checkout {
+main .main__section .checkout__summary .checkout {
   max-width: 730px;
   background: white;
   border-radius: 8px;
@@ -265,14 +267,14 @@ main .checkout__summary .checkout {
   flex-direction: column;
   row-gap: 41px;
 }
-main .checkout__summary .checkout h1 {
+main .main__section .checkout__summary .checkout h1 {
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
   letter-spacing: 1.14286px;
   text-transform: uppercase;
 }
-main .checkout__summary .checkout h4 {
+main .main__section .checkout__summary .checkout h4 {
   font-weight: 700;
   font-size: 13px;
   line-height: 25px;
@@ -280,29 +282,29 @@ main .checkout__summary .checkout h4 {
   text-transform: uppercase;
   color: #D87D4A;
 }
-main .checkout__summary .checkout label {
+main .main__section .checkout__summary .checkout label {
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: -0.214286px;
 }
-main .checkout__summary .checkout .billing__details {
+main .main__section .checkout__summary .checkout .billing__details {
   width: 634px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
 }
-main .checkout__summary .checkout .billing__details .forms {
+main .main__section .checkout__summary .checkout .billing__details .forms {
   display: flex;
   gap: 24px 16px;
   flex-wrap: wrap;
 }
-main .checkout__summary .checkout .billing__details .forms form {
+main .main__section .checkout__summary .checkout .billing__details .forms form {
   display: flex;
   flex-direction: column;
   row-gap: 9px;
 }
-main .checkout__summary .checkout .billing__details .forms form input {
+main .main__section .checkout__summary .checkout .billing__details .forms form input {
   padding: 18px 22px;
   width: 263.4px;
   background: #FFFFFF;
@@ -310,11 +312,11 @@ main .checkout__summary .checkout .billing__details .forms form input {
   border-radius: 8px;
   outline: 0;
 }
-main .checkout__summary .checkout .billing__details .forms form input:hover {
+main .main__section .checkout__summary .checkout .billing__details .forms form input:hover {
   border-color: #D87D4A;
   cursor: pointer;
 }
-main .checkout__summary .checkout .billing__details .forms form input input::-moz-placeholder {
+main .main__section .checkout__summary .checkout .billing__details .forms form input input::-moz-placeholder {
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -323,7 +325,7 @@ main .checkout__summary .checkout .billing__details .forms form input input::-mo
   mix-blend-mode: normal;
   opacity: 0.4;
 }
-main .checkout__summary .checkout .billing__details .forms form input input:-ms-input-placeholder {
+main .main__section .checkout__summary .checkout .billing__details .forms form input input:-ms-input-placeholder {
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -332,7 +334,7 @@ main .checkout__summary .checkout .billing__details .forms form input input:-ms-
   mix-blend-mode: normal;
   opacity: 0.4;
 }
-main .checkout__summary .checkout .billing__details .forms form input input::placeholder {
+main .main__section .checkout__summary .checkout .billing__details .forms form input input::placeholder {
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -341,32 +343,33 @@ main .checkout__summary .checkout .billing__details .forms form input input::pla
   mix-blend-mode: normal;
   opacity: 0.4;
 }
-main .checkout__summary .checkout .shipping__info .forms form #address {
+main .main__section .checkout__summary .checkout .shipping__info .forms form #address {
   width: 588.4px;
   padding: 18px 22px;
 }
-main .checkout__summary .checkout .payment__details {
+main .main__section .checkout__summary .checkout .payment__details {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method {
   display: flex;
-  gap: 17px 253px;
+  row-gap: 17px;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method span {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method span {
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: -0.214286px;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
   padding: 18px 22px;
   width: 263.4px;
   background: #FFFFFF;
@@ -377,17 +380,17 @@ main .checkout__summary .checkout .payment__details .billing__details .payment__
   -moz-column-gap: 16px;
        column-gap: 16px;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio:hover {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio:hover {
   border-color: #D87D4A;
   cursor: pointer;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio input {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio input {
   display: none;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio input[type=radio]:checked ~ label::before {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio input[type=radio]:checked ~ label::before {
   background: #D87D4A;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio label {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -396,26 +399,30 @@ main .checkout__summary .checkout .payment__details .billing__details .payment__
   border-radius: 100%;
   border: 1px solid #CFCFCF;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio label:hover {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio label:hover {
   cursor: pointer;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio label::before {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio label::before {
   content: "";
   display: block;
   width: 10px;
   height: 10px;
   border-radius: 100%;
 }
-main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio span {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio span {
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.25px;
 }
-main .checkout__summary .checkout .payment__details .billing__details .forms {
+main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio:has(input[type=radio]:checked) {
+  border-color: #D87D4A;
+}
+main .main__section .checkout__summary .checkout .payment__details .billing__details .forms {
+  display: none;
   margin-top: 8px;
 }
-main .checkout__summary .summary {
+main .main__section .checkout__summary .summary {
   width: 284px;
   background: #FFFFFF;
   border-radius: 8px;
@@ -424,30 +431,30 @@ main .checkout__summary .summary {
   flex-direction: column;
   row-gap: 32px;
 }
-main .checkout__summary .summary h2 {
+main .main__section .checkout__summary .summary h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 1.28571px;
   text-transform: uppercase;
 }
-main .checkout__summary .summary .buy__products {
+main .main__section .checkout__summary .summary .buy__products {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
-main .checkout__summary .summary .buy__products .products {
+main .main__section .checkout__summary .summary .buy__products .products {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .checkout__summary .summary .buy__products .products .product__info {
+main .main__section .checkout__summary .summary .buy__products .products .product__info {
   display: flex;
   align-items: center;
   -moz-column-gap: 16px;
        column-gap: 16px;
 }
-main .checkout__summary .summary .buy__products .products .product__info .product__images {
+main .main__section .checkout__summary .summary .buy__products .products .product__info .product__images {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -456,79 +463,79 @@ main .checkout__summary .summary .buy__products .products .product__info .produc
   background: #F1F1F1;
   border-radius: 8px;
 }
-main .checkout__summary .summary .buy__products .products .product__info .product__images img {
+main .main__section .checkout__summary .summary .buy__products .products .product__info .product__images img {
   width: 36px;
 }
-main .checkout__summary .summary .buy__products .products .product__info .info h5 {
+main .main__section .checkout__summary .summary .buy__products .products .product__info .info h5 {
   font-weight: 700;
   font-size: 15px;
   line-height: 25px;
 }
-main .checkout__summary .summary .buy__products .products .product__info .info strong {
+main .main__section .checkout__summary .summary .buy__products .products .product__info .info strong {
   font-weight: 700;
   font-size: 14px;
   line-height: 25px;
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-main .checkout__summary .summary .buy__products .products span {
+main .main__section .checkout__summary .summary .buy__products .products span {
   font-weight: 700;
   font-size: 15px;
   line-height: 25px;
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-main .checkout__summary .summary .total__cost {
+main .main__section .checkout__summary .summary .total__cost {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
-main .checkout__summary .summary .total__cost h6 {
+main .main__section .checkout__summary .summary .total__cost h6 {
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-main .checkout__summary .summary .total__cost strong {
+main .main__section .checkout__summary .summary .total__cost strong {
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
 }
-main .checkout__summary .summary .total__cost .total {
+main .main__section .checkout__summary .summary .total__cost .total {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
 }
-main .checkout__summary .summary .total__cost .total .cost {
+main .main__section .checkout__summary .summary .total__cost .total .cost {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .checkout__summary .summary .total__cost .grand__total {
+main .main__section .checkout__summary .summary .total__cost .grand__total {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .checkout__summary .summary .total__cost .grand__total strong {
+main .main__section .checkout__summary .summary .total__cost .grand__total strong {
   color: #D87D4A;
 }
-main .checkout__summary .summary button {
+main .main__section .checkout__summary .summary button {
   padding: 15px 0;
   background: #D87D4A;
   border: 0;
 }
-main .checkout__summary .summary button:hover {
+main .main__section .checkout__summary .summary button:hover {
   background: #FBAF85;
 }
-main .checkout__summary .summary button:hover a {
+main .main__section .checkout__summary .summary button:hover a {
   display: none;
 }
-main .checkout__summary .summary button:hover #continue {
+main .main__section .checkout__summary .summary button:hover #continue {
   display: block;
 }
-main .checkout__summary .summary button a {
+main .main__section .checkout__summary .summary button a {
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
@@ -537,60 +544,61 @@ main .checkout__summary .summary button a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-main .checkout__summary .summary button #continue {
+main .main__section .checkout__summary .summary button #continue {
   display: none;
 }
 
 @media only screen and (max-width: 1000px) {
   main {
     padding: 48px 0 116px 0;
+  }
+  main .main__section {
     row-gap: 24px;
   }
-  main .checkout__summary .checkout {
+  main .main__section .checkout__summary .checkout {
     padding: 30px 28px;
   }
-  main .checkout__summary .summary {
+  main .main__section .checkout__summary .summary {
     width: 689px;
   }
 }
 @media only screen and (max-width: 600px) {
   main {
     padding: 16px 0 97px 0;
+  }
+  main .main__section {
     row-gap: 24px;
   }
-  main .checkout__summary .checkout {
+  main .main__section .checkout__summary .checkout {
     max-width: 327px;
     padding: 24px;
     row-gap: 32px;
   }
-  main .checkout__summary .checkout h1 {
+  main .main__section .checkout__summary .checkout h1 {
     font-size: 28px;
     line-height: 38px;
     letter-spacing: 1px;
   }
-  main .checkout__summary .checkout .billing__details {
+  main .main__section .checkout__summary .checkout .billing__details {
     width: 280px;
   }
-  main .checkout__summary .checkout .billing__details .forms form {
+  main .main__section .checkout__summary .checkout .billing__details .forms form {
     display: flex;
     flex-direction: column;
     row-gap: 9px;
   }
-  main .checkout__summary .checkout .billing__details .forms form input {
+  main .main__section .checkout__summary .checkout .billing__details .forms form input {
     width: 234.4px;
   }
-  main .checkout__summary .checkout .shipping__info .forms form #address {
+  main .main__section .checkout__summary .checkout .shipping__info .forms form #address {
     width: 234.4px;
   }
-  main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox {
+  main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
   }
-  main .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
+  main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
     width: 234.4px;
-  }
-  main .checkout__summary .checkout .payment__details .billing__details .forms {
-    margin-top: 8px;
   }
 }/*# sourceMappingURL=checkout.css.map */
