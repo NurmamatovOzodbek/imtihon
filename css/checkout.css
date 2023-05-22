@@ -310,7 +310,7 @@ main .main__section .checkout__summary .checkout .billing__details .forms form {
 }
 main .main__section .checkout__summary .checkout .billing__details .forms form input {
   padding: 18px 22px;
-  width: 263.4px;
+  width: 260px;
   background: #FFFFFF;
   border: 1px solid #CFCFCF;
   border-radius: 8px;
@@ -348,7 +348,7 @@ main .main__section .checkout__summary .checkout .billing__details .forms form i
   opacity: 0.4;
 }
 main .main__section .checkout__summary .checkout .shipping__info .forms form #address {
-  width: 588.4px;
+  width: 585px;
   padding: 18px 22px;
 }
 main .main__section .checkout__summary .checkout .payment__details {
@@ -375,7 +375,7 @@ main .main__section .checkout__summary .checkout .payment__details .billing__det
 }
 main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
   padding: 18px 22px;
-  width: 263.4px;
+  width: 260px;
   background: #FFFFFF;
   border: 1px solid #CFCFCF;
   border-radius: 8px;
@@ -592,7 +592,7 @@ main .main__section .checkout__summary .summary button #continue {
     row-gap: 9px;
   }
   main .main__section .checkout__summary .checkout .billing__details .forms form input {
-    width: 234.4px;
+    width: 230px;
   }
   main .main__section .checkout__summary .checkout .shipping__info .forms form #address {
     width: 234.4px;
@@ -603,6 +603,6 @@ main .main__section .checkout__summary .summary button #continue {
     row-gap: 16px;
   }
   main .main__section .checkout__summary .checkout .payment__details .billing__details .payment__method .custom__chekcbox .radio {
-    width: 234.4px;
+    width: 230px;
   }
 }/*# sourceMappingURL=checkout.css.map */
